@@ -1,8 +1,8 @@
 # SnowInc
 
-##Empresa ficticia dedicada a la venta de productos de Snowboard.
+> ##Empresa ficticia dedicada a la venta de productos de Snowboard.###
 
-###Este Sitio esta creado en:
+>###Este Sitio esta creado en: ###
 
 *HTML:5
 *CSS3
