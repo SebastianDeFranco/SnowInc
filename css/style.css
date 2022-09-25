@@ -225,6 +225,7 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
     margin-top: 10px;
 }
 
@@ -252,7 +253,6 @@ textarea {
 
 .cards button {
     border: 1px solid #fff;
-    outline: 0;
     padding: 12px;
     color: #fff;
     background-color: #000;
