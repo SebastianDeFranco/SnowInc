@@ -56,12 +56,31 @@ body{
     align-items: center;
 }
 
-/* .hero__title{
-    font-size: 4rem;
+.hero__title {
+    position: relative;
     text-shadow: 1px 1px 1px #fff;
-    color: #000;
+    font-weight: 900;
+    font-size: 3.2rem;
     text-align: center;
-} */
+}
+@media(max-width:480px){
+    .hero__title{
+        font-size: 2.3rem;
+    }
+}
+.hero__title .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+.hero__title .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+}
 
 
 .hero__arrow{
@@ -132,30 +151,69 @@ body{
 
 
 
+/* ------------------------------------- CONTACTO ------------------------------ */
 
-.hero__title {
-    position: relative;
-    font-weight: 900;
-    font-size: 3.2rem;
+.background-contact{
+    background-image: url(../images/carousel3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-title{
     text-align: center;
-  }
-  @media(max-width:480px){
-    .hero__title{
-        font-size: 2.3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #fff;
+    padding-top: 10px;
+}
+
+.form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.655);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px; 
+}
+
+@media(max-width:480px){
+    .form{
+        width: 350px;
     }
-  }
-  .hero__title .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  .hero__title .letter {
-    transform-origin: 0 100%;
-    display: inline-block;
-    line-height: 1em;
-  }
+}
 
+.form__title {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px; 
+}
 
+.input-textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px; 
+}
+
+.input-file {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px; 
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.pointer {
+    cursor: pointer; 
+}

@@ -12,3 +12,7 @@ anime.timeline({loop: false})
     easing: "easeOutExpo",
     delay: (el, i) => 50 * i
 })
+
+
+
+
