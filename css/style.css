@@ -158,8 +158,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
-
+@media (max-width:480px){
+    .background-contact{
+        background-position: center;
+        height: auto;
+    }
+}
 .contact-title{
     text-align: center;
     font-size: 3rem;
@@ -229,6 +235,11 @@ textarea {
     margin-top: 10px;
 }
 
+.cards-title{
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+}
 
 .cards {
     background: rgba( 244, 244, 244, 0.25 );
