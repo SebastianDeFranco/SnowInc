@@ -217,3 +217,54 @@ textarea {
 .pointer {
     cursor: pointer; 
 }
+
+
+/* --------------------------------- Productos --------------------------------------- */
+.container-cards{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+.cards {
+    background: rgba( 244, 244, 244, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 10px;
+}
+
+
+
+.price {
+    color: rgb(50, 49, 49);
+    font-size: 22px;
+}
+
+.cards button {
+    border: 1px solid #fff;
+    outline: 0;
+    padding: 12px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    transition:  0.7s;
+}
+
+.cards button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
