@@ -95,7 +95,7 @@ body{
 
 @media(max-width:480px){
     .hero{
-        background-position: right; 
+        background-position: center; 
     }
     ul{
         align-items: center;
