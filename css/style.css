@@ -255,7 +255,13 @@ textarea {
     margin-top: 10px;
 }
 
+.cards img{
+    width: 100%;
+}
 
+.cards h2{
+    font-size: 1.7rem;
+}
 
 .price {
     color: rgb(50, 49, 49);
